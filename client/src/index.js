@@ -24,7 +24,7 @@ const theme = createTheme({
 });
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:3000/graphql",
+  uri: "https://render-funky-api.onrender.com",
 });
 
 const authLink = setContext(() => {
