@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const createOrder = async (userId, cartProducts, paymentId) => {
   try {
-    const response = await axios.post('http://localhost:3000/api/orders', {
+    const response = await axios.post('https://render-funky-api.onrender.com/api/orders', {
       userId,
       cartProducts,
       paymentId,
